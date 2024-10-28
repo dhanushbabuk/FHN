@@ -10,11 +10,11 @@ import { styled } from "@mui/material/styles";
 
 const sidebarItems = [
   { name: "Dashboard", icon: <DashboardIcon />, path: "/admin" },
-  { name: "Manage Team", icon: <PeopleIcon />, path: "/admin/manage-users" },
+  { name: "Manage Users", icon: <PeopleIcon />, path: "/admin/manage-users" },
   {
-    name: "Contacts Information",
+    name: "User Activity Logs",
     icon: <PeopleIcon />,
-    path: "/admin/contacts",
+    path: "/admin/user-activities",
   },
   { name: "Invoices", icon: <DashboardIcon />, path: "/admin/invoices" },
   { name: "Profile", icon: <PeopleIcon />, path: "/profile" },
@@ -28,7 +28,7 @@ const StyledLink = styled(Link)(({ theme }) => ({
 function Sidebar() {
   return (
     <div
-      style={{ width: "250px", height: "100vh", backgroundColor: "#123456" }}
+      style={{ width: "250px", height: "100vh", backgroundColor: "#123786" }}
     >
       <List>
         {sidebarItems.map((item) => (

@@ -5,7 +5,7 @@ import Sidebar from "../Global/Sidebar/Sidebar";
 // import AdminDashboard from "./StatsCard";
 import AdminPage from "../AdminManagementPage.js/AdminPage";
 import ManageUsers from "../Users/ManageUsers";
-import Navbar from "./Navbar";
+import Navbar from "../Global/Navbar/Navbar";
 // Import other necessary components
 
 function AdminManagement() {

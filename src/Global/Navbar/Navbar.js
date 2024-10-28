@@ -1,7 +1,7 @@
 // src/components/Navbar.js
 import React from "react";
 import { AppBar, Toolbar, Typography, InputBase } from "@mui/material";
-import UserProfileDropdown from "../Global/Navbar/UserProfileDashboard";
+import UserProfileDropdown from "./UserProfileDashboard";
 import SearchIcon from "@mui/icons-material/Search";
 function Navbar() {
   return (
